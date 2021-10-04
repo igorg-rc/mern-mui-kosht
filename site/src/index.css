@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Gilroy-Bold', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh !important;
+  background-color: rgb(240, 240, 240) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiToolbar-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Styles on post displaying stuff */
+.post-content {
+  border-radius: 20px !important;
+  max-width: 100% !important;
+  color:#2E3A59 !important;
+  font-weight: 600 !important;
+  font-family: 'Roboto, sans-serif';
+  font-size: 14px;
+}
+
+.post-content strong {
+}
+
+.MuiTypography-paragraph,
+.post-content p,
+.post-content ul li {
+  border-radius: 5px !important;
+  max-width: 100% !important;
+  text-align: left;
+  font-size: 14pt !important;
+  font-weight: 500 !important;
+  color: '#2E3A59' !important;
+}
+
+.post-content iframe {
+  width: 100% !important;
+  height: 400px !important;
+  border-radius: 5px !important;
+}
+
+.post-content a {
+  font-weight: 600;
+  color: '#2E3A59';
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  color: #2E3A59 !important;
+  font-weight: 900;
+  /* text-decoration: underline !important; */
+  transition: 0.5s;
+}
+
+.post-content p img, .ql-video {
+  text-align: center !important;
+  padding: 5px 0 !important;
+  max-width: 100% !important;
+  border-radius: 10px !important;
+}
+
+.post-content-detail p img:hover {
+  cursor: pointer !important;
+  color: #2E3A59 !important;
+}
+
+
+/* Spinners styles */
+.page-loading-spinner {
+  color: #2E3A59 !important;
+}
+
+/* Vector */
+.left-menu-icon {
+  color: #000 !important;
+  width: 20px;
+}

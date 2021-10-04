@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Play', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.ql-container {
+  min-height: 100px;
+}
+
+th, td {
+  padding: 2px 0 !important
+}
+
+.MuiTableCell-head {
+  padding-right: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.add_button {
+  margin-right: auto !important;
+  text-align: left !important;
+}
